@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF04DD3A276D0B8F00E0E8F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF04DD39276D0B8E00E0E8F1 /* GoogleService-Info.plist */; };
 		CF2975F0276C1162004E88EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2975EF276C1162004E88EE /* AppDelegate.swift */; };
 		CF2975F2276C1162004E88EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2975F1276C1162004E88EE /* SceneDelegate.swift */; };
 		CF2975F4276C1162004E88EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2975F3276C1162004E88EE /* ViewController.swift */; };
 		CF2975F7276C1162004E88EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2975F5276C1162004E88EE /* Main.storyboard */; };
 		CF2975F9276C1163004E88EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2975F8276C1163004E88EE /* Assets.xcassets */; };
 		CF2975FC276C1163004E88EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2975FA276C1163004E88EE /* LaunchScreen.storyboard */; };
+		CF297604276C8702004E88EE /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF297603276C8702004E88EE /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF04DD39276D0B8E00E0E8F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CF2975EC276C1162004E88EE /* BmiCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BmiCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2975EF276C1162004E88EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF2975F1276C1162004E88EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		CF2975F8276C1163004E88EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF2975FB276C1163004E88EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF2975FD276C1163004E88EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF297603276C8702004E88EE /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		CF2975EE276C1162004E88EE /* BmiCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				CF04DD39276D0B8E00E0E8F1 /* GoogleService-Info.plist */,
 				CF2975EF276C1162004E88EE /* AppDelegate.swift */,
 				CF2975F1276C1162004E88EE /* SceneDelegate.swift */,
 				CF2975F3276C1162004E88EE /* ViewController.swift */,
+				CF297603276C8702004E88EE /* SubViewController.swift */,
 				CF2975F5276C1162004E88EE /* Main.storyboard */,
 				CF2975F8276C1163004E88EE /* Assets.xcassets */,
 				CF2975FA276C1163004E88EE /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2975FC276C1163004E88EE /* LaunchScreen.storyboard in Resources */,
+				CF04DD3A276D0B8F00E0E8F1 /* GoogleService-Info.plist in Resources */,
 				CF2975F9276C1163004E88EE /* Assets.xcassets in Resources */,
 				CF2975F7276C1162004E88EE /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 				CF2975F4276C1162004E88EE /* ViewController.swift in Sources */,
 				CF2975F0276C1162004E88EE /* AppDelegate.swift in Sources */,
 				CF2975F2276C1162004E88EE /* SceneDelegate.swift in Sources */,
+				CF297604276C8702004E88EE /* SubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9C4UC8NM6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BmiCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -305,7 +314,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9C4UC8NM6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BmiCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -332,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

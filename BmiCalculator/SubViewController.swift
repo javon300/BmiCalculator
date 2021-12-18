@@ -1,12 +1,14 @@
-//
-//  SubViewController.swift
-//  BmiCalculator
-//
-//  Created by javon maxwell on 2021-12-17.
-//
+/*
+ file name: BMI Calculator main view controller
+ 
+ Author: Matthew Maxwell
+Student ID: 301200258
+Date: dec 17 2021
+Changes made: this file hasnt been changed since first push
+ **/
 
 import UIKit
-
+//defines tableView set up and is connected to a view controller in main
 class SubViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
 {
     

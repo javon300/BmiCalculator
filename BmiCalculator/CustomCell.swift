@@ -1,10 +1,11 @@
-//
-//  CustomCell.swift
-//  BmiCalculator
-//
-//  Created by javon maxwell on 2021-12-17.
-//
-
+/*
+ file name: BMI Calculator main view controller
+ 
+ Author: Matthew Maxwell
+Student ID: 301200258
+Date: dec 17 2021
+ 
+ **/
 import UIKit
 
 class CustomCell: UITableViewCell {

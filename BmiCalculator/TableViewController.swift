@@ -1,9 +1,11 @@
-//
-//  TableViewController.swift
-//  BmiCalculator
-//
-//  Created by javon maxwell on 2021-12-17.
-//
+/*
+ file name: BMI Calculator main view controller
+ 
+ Author: Matthew Maxwell
+Student ID: 301200258
+Date: dec 17 2021
+Changes made: this file no longer used since table doesnot appear different approach taken
+ **/
 
 import UIKit
 
@@ -13,7 +15,7 @@ class TableViewController: UIViewController, UITableViewDataSource , UITableView
     var taskString = String()//seg
     
     //array of tasks
-    private let taskList = ["head", "shoulder", "knees", "toes"]
+    private let taskList = ["213.2", "123.2", "23132.2", "1231.2"]
     
     // String table identifier
     let tasksTableIdentifier = "tasksTable"

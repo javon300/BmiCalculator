@@ -1,9 +1,7 @@
-//
-//  AppDelegate.swift
-//  BmiCalculator
-//
-//  Created by javon maxwell on 2021-12-16.
-//
+
+
+//tried and failed to fix error
+//Thread 1: "[<BmiCalculator.SubViewController 0x15af04c30> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key tableView."
 
 import UIKit
 

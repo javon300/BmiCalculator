@@ -115,7 +115,7 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="1Ws-G6-1GZ" kind="show" id="8Ex-Yl-ucM"/>
+                                    <segue destination="N9X-G7-dgJ" kind="show" id="bKc-8V-BJI"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oH2-8a-Ea1">
@@ -312,21 +312,46 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="82.366071428571431"/>
         </scene>
-        <!--BMI Tracking-->
-        <scene sceneID="XK0-Yt-TbH">
+        <!--Sub View Controller-->
+        <scene sceneID="NQy-tY-UCT">
             <objects>
-                <viewController id="1Ws-G6-1GZ" customClass="SubViewController" customModule="BmiCalculator" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ge0-CQ-4LU">
+                <viewController id="N9X-G7-dgJ" customClass="SubViewController" customModule="BmiCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3QG-71-Qz5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="XLJ-HW-iBy"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="CIe-VC-pbP">
+                                <rect key="frame" x="20" y="138" width="374" height="648"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="Its-d8-6nm">
+                                        <rect key="frame" x="0.0" y="44.5" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Its-d8-6nm" id="pHH-dt-Euh">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fWF-vm-paC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CIe-VC-pbP" firstAttribute="trailing" secondItem="3QG-71-Qz5" secondAttribute="trailingMargin" id="1e5-hh-P8G"/>
+                            <constraint firstItem="fWF-vm-paC" firstAttribute="bottom" secondItem="CIe-VC-pbP" secondAttribute="bottom" constant="76" id="P2l-Sf-Jqu"/>
+                            <constraint firstItem="CIe-VC-pbP" firstAttribute="leading" secondItem="3QG-71-Qz5" secondAttribute="leadingMargin" id="hR3-mS-ZbU"/>
+                            <constraint firstItem="CIe-VC-pbP" firstAttribute="top" secondItem="fWF-vm-paC" secondAttribute="top" constant="50" id="jy1-hN-m6Y"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="BMI Tracking" id="AGk-jL-R0V"/>
+                    <navigationItem key="navigationItem" id="1sq-Kt-waw"/>
+                    <connections>
+                        <outlet property="tableView" destination="CIe-VC-pbP" id="leN-42-7ku"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FpH-Ae-4L0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qwU-MP-fUu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1823" y="82"/>
+            <point key="canvasLocation" x="1921.7391304347827" y="81.696428571428569"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="saN-tp-kpk">

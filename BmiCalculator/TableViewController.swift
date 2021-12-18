@@ -1,5 +1,5 @@
 //
-//  SubViewController.swift
+//  TableViewController.swift
 //  BmiCalculator
 //
 //  Created by javon maxwell on 2021-12-17.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SubViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
+class TableViewController: UIViewController, UITableViewDataSource , UITableViewDelegate
 {
     
     var taskString = String()//seg
@@ -69,3 +69,4 @@ class SubViewController: UIViewController, UITableViewDelegate, UITableViewDataS
     }
 
 }
+

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF04DD3A276D0B8F00E0E8F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF04DD39276D0B8E00E0E8F1 /* GoogleService-Info.plist */; };
 		CF2975F0276C1162004E88EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2975EF276C1162004E88EE /* AppDelegate.swift */; };
 		CF2975F2276C1162004E88EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2975F1276C1162004E88EE /* SceneDelegate.swift */; };
 		CF2975F4276C1162004E88EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2975F3276C1162004E88EE /* ViewController.swift */; };
@@ -15,10 +14,13 @@
 		CF2975F9276C1163004E88EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2975F8276C1163004E88EE /* Assets.xcassets */; };
 		CF2975FC276C1163004E88EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2975FA276C1163004E88EE /* LaunchScreen.storyboard */; };
 		CF297604276C8702004E88EE /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF297603276C8702004E88EE /* SubViewController.swift */; };
+		CF6A31B0276D1A0600EFB095 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF6A31AF276D1A0600EFB095 /* GoogleService-Info.plist */; };
+		CF6A31B2276D2BA100EFB095 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A31B1276D2BA100EFB095 /* CustomCell.swift */; };
+		CF6A31B4276D63B900EFB095 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A31B3276D63B900EFB095 /* Task.swift */; };
+		CF6A31B6276D719800EFB095 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A31B5276D719800EFB095 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF04DD39276D0B8E00E0E8F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CF2975EC276C1162004E88EE /* BmiCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BmiCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2975EF276C1162004E88EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF2975F1276C1162004E88EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +30,10 @@
 		CF2975FB276C1163004E88EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF2975FD276C1163004E88EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF297603276C8702004E88EE /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		CF6A31AF276D1A0600EFB095 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF6A31B1276D2BA100EFB095 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		CF6A31B3276D63B900EFB095 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		CF6A31B5276D719800EFB095 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +66,18 @@
 		CF2975EE276C1162004E88EE /* BmiCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				CF04DD39276D0B8E00E0E8F1 /* GoogleService-Info.plist */,
 				CF2975EF276C1162004E88EE /* AppDelegate.swift */,
 				CF2975F1276C1162004E88EE /* SceneDelegate.swift */,
 				CF2975F3276C1162004E88EE /* ViewController.swift */,
-				CF297603276C8702004E88EE /* SubViewController.swift */,
+				CF6A31B5276D719800EFB095 /* TableViewController.swift */,
 				CF2975F5276C1162004E88EE /* Main.storyboard */,
 				CF2975F8276C1163004E88EE /* Assets.xcassets */,
 				CF2975FA276C1163004E88EE /* LaunchScreen.storyboard */,
 				CF2975FD276C1163004E88EE /* Info.plist */,
+				CF6A31AF276D1A0600EFB095 /* GoogleService-Info.plist */,
+				CF6A31B3276D63B900EFB095 /* Task.swift */,
+				CF297603276C8702004E88EE /* SubViewController.swift */,
+				CF6A31B1276D2BA100EFB095 /* CustomCell.swift */,
 			);
 			path = BmiCalculator;
 			sourceTree = "<group>";
@@ -132,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2975FC276C1163004E88EE /* LaunchScreen.storyboard in Resources */,
-				CF04DD3A276D0B8F00E0E8F1 /* GoogleService-Info.plist in Resources */,
+				CF6A31B0276D1A0600EFB095 /* GoogleService-Info.plist in Resources */,
 				CF2975F9276C1163004E88EE /* Assets.xcassets in Resources */,
 				CF2975F7276C1162004E88EE /* Main.storyboard in Resources */,
 			);
@@ -146,8 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2975F4276C1162004E88EE /* ViewController.swift in Sources */,
+				CF6A31B6276D719800EFB095 /* TableViewController.swift in Sources */,
 				CF2975F0276C1162004E88EE /* AppDelegate.swift in Sources */,
+				CF6A31B2276D2BA100EFB095 /* CustomCell.swift in Sources */,
 				CF2975F2276C1162004E88EE /* SceneDelegate.swift in Sources */,
+				CF6A31B4276D63B900EFB095 /* Task.swift in Sources */,
 				CF297604276C8702004E88EE /* SubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +315,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,6 +344,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
